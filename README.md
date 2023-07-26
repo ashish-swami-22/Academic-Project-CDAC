@@ -1,1 +1,1 @@
-# Academic-Project-CDAC
+# E-waste and Plastic Management System
