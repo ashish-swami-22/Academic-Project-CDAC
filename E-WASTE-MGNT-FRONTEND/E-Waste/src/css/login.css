@@ -1,0 +1,132 @@
+
+
+/* .login-img { */
+  /* background-image: url("../images/"); */
+  /* background-size: cover;
+ height:50px;
+}
+.log {
+  background-color: #e2e2e2;
+}
+.log-img {
+  height: 100%;
+  width: 100%;
+} */
+
+.login-img {
+  /* background-image: url("../images/login-bg.jpg"); */
+  background-image: url("../images/loginpg-bg.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+.log {
+  /* background-color: #f8f9facf; */
+  background-color: rgba(230, 218, 218, 0.4);
+}
+.log-img {
+  height: 100%;
+  width: 100%;
+}
+
+  /* social-media-handles CSS */
+
+  
+  .icon{ 
+    display: inline-block;
+    font-size: 44px;
+    animation: float 3s ease-in-out
+    infinite;
+  }   
+  
+  .ri-facebook-line{
+    animation-delay: 1s ;
+  }
+  
+  .ri-whatsapp-line{
+   animation-delay: 2s ;
+  }
+  
+  @keyframes float {
+  
+   0%{
+       transform: translateY(0);
+   }
+   50%{
+       transform: translateY(-10px);
+  
+   }
+   100%{
+       transform: translateY(0);
+   }
+  
+  }
+  
+  
+  /* image to the left side  */
+ 
+  .card{
+  
+    background-color: #333;
+    border-radius: 10px;
+    outline: 1px solid
+    rgba(255, 255 ,255 , .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px 
+    rgba(0,0,0,.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-image{
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+    transition: transform .7s ;
+  }
+  
+  .card:hover .card-image{
+  
+    transform: scale(1.1);
+  }
+  
+  
+  /* buttom skew animation */
+  
+
+  
+ .button{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    outline: 2px solid #fff;
+    padding: 30px 60px;
+    position: relative;
+    overflow: hidden;
+    transition: color 1s;
+  }
+  
+  .button:hover{
+    color: red;
+  }
+  
+  .button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 1s;
+  }
+
+      
+  
+  .button:hover::after{
+    width: 150%;
+  } 
+
+

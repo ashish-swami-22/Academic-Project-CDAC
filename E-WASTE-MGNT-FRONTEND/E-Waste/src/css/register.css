@@ -1,0 +1,8 @@
+.reg {
+  background: url("../images/register.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.reg-form {
+  background-color: #000000e3;
+}
